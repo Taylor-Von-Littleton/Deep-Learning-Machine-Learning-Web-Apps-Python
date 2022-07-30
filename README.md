@@ -34,7 +34,7 @@ Run Flask app in docker container - create dockerfile - create logistic regressi
 ### 5 - Generate a Dockerfile to build the image in the container.
 ![Docker_PythonFlaskApp](https://user-images.githubusercontent.com/106122834/178181204-83f1dd65-43c6-4a6d-af03-aa8998364167.jpeg)
 
-# Machine_Learning_Projects
+# Python Streamlit Machine Learning WebApp
 ### 1 - Build interactive web applications with Streamlit and Python
 ### 2 - Train Logistic Regression, Random Forest, and Support Vector Classifiers using scikit-learn
 ### 3 - Plot evaluation metrics for binary classification algorithms
