@@ -45,3 +45,9 @@ Run Flask app in docker container - create dockerfile - create logistic regressi
 Final View of App with user interactive functions and parameter settings.
 ![Streamlit](https://user-images.githubusercontent.com/106122834/178174842-a371c798-7913-44a4-821e-ff403e4a2f38.jpeg)
 
+
+# HyperParameter Tuning With Microsoft Neural Network Intelligence.
+### use the popular MNIST dataset and train a simple Neural Network to learn to classify images of hand-written digits from the dataset. Once a basic script is in place, we will use the NNI toolkit to run a hyperparameter tuning experiment to find optimal values for batch size, learning rate, choice of activation function for the hidden layer, number of hidden units for the hidden layer, and dropout rate for the dropout layer.
+![HyperParameterTuning](https://user-images.githubusercontent.com/106122834/182059838-6ed7c8b6-c6e9-424a-9a08-2a630f4c7c4d.jpeg)
+![Page-1  Coursera GBYM6XPGH7Y4 pdf](https://user-images.githubusercontent.com/106122834/182059845-147ff1ff-91d5-46fb-93fe-888136355e09.jpeg)
+
