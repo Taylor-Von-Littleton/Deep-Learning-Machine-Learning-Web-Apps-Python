@@ -1,0 +1,16 @@
+authorName: Taylor Littleton
+experimentName: mnist # name of the experiment
+trialconcurrency: 1 # number of trials to run in parallel
+maxExecDuration: 1h # maximum duration of a trial
+maxTrialNum: 20 # maximum number of trials to run
+trainingServicePlatform: local # platform to run training service on
+useAnnotation: false 
+searchSpacePath: search_space.json # path to search space json file
+# we need searchSpacePath first because we need to know the number of parameters in the search space
+tuner: 
+  builtinTunerName: TPE 
+  classArgs: # arguments to pass to the tuner class
+    optimize_mode: maximize # optimize mode of the tuner
+trial:
+  command: ./main.py # command to run
+  codeDir: .
